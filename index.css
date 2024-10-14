@@ -1,0 +1,162 @@
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+:root {
+  --primery-color : #0F103F;
+  --card-color : rgba(28, 28, 101, 0.614);
+  --color-peach: #F48C6D;      /* Complementary Accent (Soft Peach) */
+  --color-purple: #301C73;     /* Analogous Color (Deep Purple) */
+  --color-slate-blue: #475B9C; /* Analogous Color (Slate Blue) */
+  --color-light-gray: #E0E2E9; /* Neutral (Cool Light Gray) */
+  --color-medium-gray: #6A7188;/* Neutral (Medium Gray) */
+  --color-aqua: #45D9E8;       /* Highlight (Bright Aqua) */
+  --color-warm-neutral: #F1E1D0; /* Warm Neutral Accent */
+  --secondary-text : #6A6CB4;
+}
+
+.main-gradient {
+  background: linear-gradient(90deg, #AB71C6 0%, #8A6EE0 36%, #6A6CF9 100%);
+
+}
+
+.gradient-tolow {
+  background: linear-gradient(90deg, #AB71C6 0%, #8A6EE0 36%, #6a6cf900 100%);
+
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #AB71C6 0%, #8A6EE0 36%, #6A6CF9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  text-align: center;
+
+
+}
+
+
+
+
+
+  /* .gradient-border {
+    position: relative;
+    display: flex;
+    padding: 0.1vw 1.2vw; 
+    background-color: var(--primery-color); 
+    color: white;  
+    border-radius: 0.5vw; 
+    z-index: 1; 
+  }
+  
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    height: calc(100% + 4px); 
+    width: calc(100% + 4px);  
+    background: linear-gradient(90deg, #AB71C6 0%, #8A6EE0 36%, #6A6CF9 100%);
+    border-radius: 0.6vw;  
+    z-index: -1;  
+  }
+
+ */
+
+ .button-el {
+  border: 1px solid #8A6EE0;
+  padding: 0.6vw 1vw;
+  border-radius: 0.8vw;
+  font-size: 0.9vw;
+  transition: all 0.2s ease-in-out; /* Smooth transition for all properties */
+  
+  /* Initial appearance */
+  background-color: transparent; 
+ 
+}
+
+.button-el:hover {
+  
+
+
+
+  box-shadow: 0px 0px 30px rgba(138, 110, 224, 0.4); /* Shadow effect */
+}
+
+
+.button-el-filled {
+  border: 1px solid transparent;
+  background: linear-gradient(90deg, #AB71C6 0%, #8A6EE0 36%, #6A6CF9 100%);
+  padding: 0.6vw 1vw;
+  border-radius: 0.8vw;
+  font-size: 0.9vw;
+  
+  /* Add smooth transition for background and border */
+  transition: all 0.4s ease-in-out; /* Adjust timing as needed */
+}
+
+.button-el-filled:hover {
+  border: 1px solid #8A6EE0;
+  background-color: transparent;
+  background: linear-gradient(90deg, #ab71c600 0%, #8a6ee000 36%, #6a6cf900 100%);
+  transition: all 0.4s ease-in-out; /* Adjust timing as needed */
+
+  box-shadow: 0px 0px 20px rgba(138, 110, 224, 0.4); /* Shadow effect */
+}
+
+.button-el-filled-message {
+  border: 1px solid transparent;
+  background: linear-gradient(90deg, #AB71C6 0%, #8A6EE0 36%, #6A6CF9 100%);
+  padding: 0.6vw 2vw;
+  border-radius: 0.8vw;
+  font-size: 0.9vw;
+  
+  /* Add smooth transition for background and border */
+  transition: all 0.4s ease-in-out; /* Adjust timing as needed */
+}
+
+.button-el-filled-message:hover {
+  border: 1px solid #8A6EE0;
+  background-color: transparent;
+  background: linear-gradient(90deg, #ab71c600 0%, #8a6ee000 36%, #6a6cf900 100%);
+  transition: all 0.4s ease-in-out; /* Adjust timing as needed */
+
+  box-shadow: 0px 0px 20px rgba(138, 110, 224, 0.4); /* Shadow effect */
+}
+
+
+
+.outline-el {
+  border: 1px solid #8A6EE0;
+  
+
+
+  transition: all 0.2s ease-in-out; /* Smooth transition for all properties */
+  
+  /* Initial appearance */
+
+ 
+}
+
+.outline-el:hover {
+  
+
+
+
+  box-shadow: 0px 0px 30px rgba(138, 110, 224, 0.4); /* Shadow effect */
+}
+
+
